@@ -1,0 +1,36 @@
+# Units
+[Units]
+    [[Peasant]]
+        maintenance = 2
+        strength = 1
+        defence = 1
+
+    [[Spearman]]
+        maintenance = 6
+        strength = 2
+        defence = 2
+
+    [[baron]]
+        maintenance = 18
+        strength = 3
+        defence = 3
+
+    [[knight]]
+        maintenance = 54
+        strength = 5
+        defence = 4
+
+# Buildings
+[Buildings]
+    [[Tower]]
+        maintenance = 1
+        cost = 15
+
+    [[Strong Tower]]
+        maintenance = 6
+        cost = 35
+
+    [[Farm]]
+        maintenance = -4
+        cost = 12
+        # Add 2 for each you buy
